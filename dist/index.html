@@ -1,0 +1,29 @@
+
+<html lang="en">
+<head>
+  <title>Advanced Todo List</title>
+  <link rel="stylesheet" href="/styles.8986bff4.css">
+  <script src="/script.75da7f30.js" defer=""></script>
+<script src="/styles.8986bff4.js"></script></head>
+<body>
+  <ul id="list">
+    
+  </ul>
+  
+  <form id="form">
+    <label for="todo-input">New Todo</label>
+    <input type="text" id="todo-input">
+    <button type="submit">Add Todo</button>
+  </form>
+
+  <template id="list-item-template">
+    <li class="list-item">
+      <label class="list-item-label">
+        <input type="checkbox" data-list-item-checkbox="">
+        <span data-list-item-text=""></span>
+      </label>
+      <button data-button-delete="">Delete</button>
+    </li>
+  </template>
+</body>
+</html>
